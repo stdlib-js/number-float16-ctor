@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Float16 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-ctor@deno/mod.js';
+import Float16 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-ctor@v0.1.1-deno/mod.js';
 ```
 
 #### Float16( value )
@@ -196,7 +196,7 @@ v = x.valueOf();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Float16 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-ctor@deno/mod.js';
+import Float16 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-ctor@v0.1.1-deno/mod.js';
 
 var x = new Float16( 3.14 );
 
