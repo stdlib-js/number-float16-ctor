@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-float16-ctor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "16-bit half-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -39,11 +39,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-to-primitive-symbol-support": "github:stdlib-js/assert-has-to-primitive-symbol-support#main",
+    "@stdlib/assert-has-to-primitive-symbol-support": "^0.1.0",
     "@stdlib/assert-is-number": "^0.2.2",
     "@stdlib/number-float64-base-to-float16": "^0.1.0",
     "@stdlib/string-format": "^0.2.2",
-    "@stdlib/symbol-to-primitive": "github:stdlib-js/symbol-to-primitive#main",
+    "@stdlib/symbol-to-primitive": "^0.1.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-define-read-only-property": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.3",
