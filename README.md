@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Float16 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float16-ctor/tags). For example,
+
+```javascript
 import Float16 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-ctor@v0.1.2-esm/index.mjs';
 ```
 
@@ -201,7 +206,7 @@ v = x.valueOf();
 <body>
 <script type="module">
 
-import Float16 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-ctor@v0.1.2-esm/index.mjs';
+import Float16 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-ctor@esm/index.mjs';
 
 var x = new Float16( 3.14 );
 
